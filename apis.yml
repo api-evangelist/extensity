@@ -1,8 +1,24 @@
 aid: extensity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/extensity.png
 name: Extensity
-description: Extensity is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ExtensityAI is an AI research company building trustworthy, verifiable AI for enterprise
+  environments through a neurosymbolic architecture that combines large language models with symbolic
+  validation and knowledge-graph reasoning. Its flagship open-source framework, SymbolicAI, treats LLMs
+  as programmable, differentiable primitives (Symbol objects) governed by Design-by-Contract validation,
+  giving developers source-traceable, contract-enforced AI they can run on-premise with sovereign data
+  control. The company also ships developer tooling including the ontoloom MCP server for building and
+  exploring OWL 2 ontologies with AI agents. Backed by Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/extensity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Neurosymbolic AI
+- Large Language Models
+- Knowledge Graphs
+- Developer Tools
+- Open Source
+- Python
+- Model Context Protocol
 apis: []
+common:
+- type: DomainSecurity
+  url: security/extensity-domain-security.yml
+- type: Website
+  url: https://extensity.ai
+- type: GitHubOrganization
+  url: https://github.com/ExtensityAI
+- type: Documentation
+  url: https://extensityai.gitbook.io/symbolicai
+- type: SourceCode
+  url: https://github.com/ExtensityAI/symbolicai
+- type: Support
+  name: Discord Community
+  url: https://discord.gg/QYMNnh9ra8
+- type: Packages
+  url: packages/extensity-packages.yml
+- type: SDKs
+  url: packages/extensity-packages.yml
+- type: MCPServer
+  url: mcp/extensity-mcp.yml
+- type: LLMsTxt
+  url: llms/extensity-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

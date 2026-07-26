@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/symbolicai/
+packages:
+- language: python
+  registry: pypi
+  name: symbolicai
+  url: https://pypi.org/project/symbolicai/
+  install: pip install symbolicai
+  repository: https://github.com/ExtensityAI/symbolicai
+  homepage: https://extensity.ai
+  license: BSD-3-Clause
+  version: 1.18.0
+  official: true
+  description: A neurosymbolic perspective on large language models; treats LLMs as programmable,
+    differentiable primitives (Symbol objects) governed by Design-by-Contract validation. Requires
+    Python >=3.11.

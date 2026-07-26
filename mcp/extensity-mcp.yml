@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+status: published
+source: https://github.com/ExtensityAI/ontoloom
+server:
+  name: ontoloom
+  description: MCP server that lets AI agents build and explore OWL 2 EL ontologies stored in SQLite
+    databases.
+  transport: stdio
+  maturity: alpha
+  language: python
+  python: '3.12'
+  repository: https://github.com/ExtensityAI/ontoloom
+  run: uv run --project packages/mcp python -m ontoloom_mcp.server
+  install:
+  - method: claude-code-plugin
+    command: /plugins add /path/to/ontoloom/plugins/claude-plugin
+  - method: mcp-config
+    note: Add to .mcp.json with stdio transport running the ontoloom_mcp.server module.
+tools:
+- name: create_ontology
+  category: setup
+- name: set_prefix
+  category: setup
+- name: remove_prefix
+  category: setup
+- name: add_axioms
+  category: build
+- name: remove_axioms
+  category: build
+- name: annotate_axiom
+  category: build
+- name: replace_axiom
+  category: build
+- name: rename_iri
+  category: build
+- name: describe_ontology
+  category: query
+- name: get_entity
+  category: query
+- name: find_entities
+  category: query
+- name: find_axioms
+  category: query
+- name: find_duplicate_entities
+  category: query
+- name: match_axioms
+  category: query
+- name: create_selection
+  category: selections
+- name: read_selection
+  category: selections
+- name: list_selections
+  category: selections
+- name: remove_selections
+  category: selections
+- name: export_jsonl
+  category: export

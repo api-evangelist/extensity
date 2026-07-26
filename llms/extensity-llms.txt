@@ -1,0 +1,21 @@
+# ExtensityAI
+
+> ExtensityAI is an AI research company building trustworthy, verifiable AI for enterprise environments through a neurosymbolic architecture that combines large language models with symbolic validation and knowledge-graph reasoning. Its flagship open-source framework, SymbolicAI, treats LLMs as programmable, differentiable primitives (Symbol objects) governed by Design-by-Contract validation. Backed by Lightspeed Venture Partners.
+
+## About
+- [Website](https://extensity.ai): Company home — "AI you can verify. Knowledge you can trust."
+- [GitHub organization](https://github.com/ExtensityAI): Open-source neurosymbolic tooling.
+
+## Framework
+- [SymbolicAI (source)](https://github.com/ExtensityAI/symbolicai): A neurosymbolic perspective on LLMs (Python, BSD-3-Clause).
+- [SymbolicAI documentation](https://extensityai.gitbook.io/symbolicai): Official GitBook docs, guides, and tutorials.
+- [symbolicai on PyPI](https://pypi.org/project/symbolicai/): `pip install symbolicai` (requires Python >=3.11).
+- [Research paper (arXiv:2402.00854)](https://arxiv.org/abs/2402.00854): "SymbolicAI: A framework for logic-based approaches combining generative models and solvers."
+- [DeepWiki](https://deepwiki.com/ExtensityAI/symbolicai): Community wiki for SymbolicAI.
+
+## Agent tooling
+- [ontoloom (MCP server)](https://github.com/ExtensityAI/ontoloom): MCP server for building and exploring OWL 2 EL ontologies with AI agents (stdio transport, Python 3.12, alpha).
+
+## Community
+- [Discord](https://discord.gg/QYMNnh9ra8): SymbolicAI community.
+- Contact: office@extensity.ai
