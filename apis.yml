@@ -41,6 +41,13 @@ tags:
 - Model Context Protocol
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/ExtensityAI/symbolicai/issues
+- type: Releases
+  url: https://github.com/ExtensityAI/symbolicai/releases
+- type: License
+  name: BSD-3-Clause
+  url: https://github.com/ExtensityAI/symbolicai/blob/main/LICENSE
 - type: DomainSecurity
   url: security/extensity-domain-security.yml
 - type: Website
