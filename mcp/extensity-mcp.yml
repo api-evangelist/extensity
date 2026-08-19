@@ -4,8 +4,7 @@ status: published
 source: https://github.com/ExtensityAI/ontoloom
 server:
   name: ontoloom
-  description: MCP server that lets AI agents build and explore OWL 2 EL ontologies stored in SQLite
-    databases.
+  description: MCP server that lets AI agents build and explore OWL 2 EL ontologies stored in SQLite databases.
   transport: stdio
   maturity: alpha
   language: python
@@ -56,3 +55,9 @@ tools:
   category: selections
 - name: export_jsonl
   category: export
+deployment:
+  mode: local-stdio
+  verified: searched
+  tools: 19
+  checked: '2026-08-12'
+  source: catalog MCP census
