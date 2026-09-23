@@ -1,0 +1,31 @@
+# Front Door AI Index — extensity — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: extensity
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: extensity.ai
+  final_host: www.extensity.ai
+  ownership: own
+  owner: extensity
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 42
+  host_score: 42
+  density: 29.35
+  words: 1431
+  tiers:
+    agentic: 2
+    core: 38
+    model: 2
+  ambiguous: 21
+  top_terms:
+    AI: 30
+    agent: 20
+    LLMs: 6
+    agentic: 2
+    large language model: 2
+    transformer: 2
+    automation: 1
